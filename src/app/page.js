@@ -1,10 +1,11 @@
 import React from 'react';
+import Hero from './Component/Hero';
 
 const HomePage = () => {
   return (
-    <div>
-      <h1 className='text-2xl text-center py-10'>Hi, Next js Welcome</h1>
-    </div>
+    <>
+      <Hero />
+    </>
   );
 };
 

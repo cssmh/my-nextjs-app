@@ -14,10 +14,7 @@ const tailwindConfig = {
       },
     },
   },
-  plugins: [require('daisyui')], 
-  daisyui: {
-    themes: ["light", "dark", "cupcake"],
-  },
+  plugins: [require('daisyui')],
 };
 
 export default tailwindConfig;
