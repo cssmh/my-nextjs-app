@@ -3,50 +3,44 @@
     {
       "id": 1,
       "title": "AirMax 2025",
+      "image": "https://cdn.thewirecutter.com/wp-content/media/2024/05/runningshoesforyou-2048px-2251.jpg?auto=webp&quality=75&width=1024",
       "description": "A sleek and comfortable running shoe with advanced air cushioning.",
       "price": 120
     },
     {
       "id": 2,
       "title": "Trail Blazer Pro",
+      "image": "https://cdn.thewirecutter.com/wp-content/media/2024/05/runningshoesforyou-2048px-2251.jpg?auto=webp&quality=75&width=1024",
       "description": "Durable hiking shoes designed for rugged terrains and extreme conditions.",
       "price": 140
     },
     {
       "id": 3,
       "title": "Classic Loafers",
+      "image": "https://cdn.thewirecutter.com/wp-content/media/2024/05/runningshoesforyou-2048px-2251.jpg?auto=webp&quality=75&width=1024",
       "description": "Stylish leather loafers perfect for formal and casual settings.",
       "price": 85
     },
     {
       "id": 4,
       "title": "Urban Sneakers",
+      "image": "https://cdn.thewirecutter.com/wp-content/media/2024/05/runningshoesforyou-2048px-2251.jpg?auto=webp&quality=75&width=1024",
       "description": "Trendy and lightweight sneakers for everyday urban wear.",
       "price": 100
     },
     {
       "id": 5,
       "title": "Swift Runner Elite",
+      "image": "https://cdn.thewirecutter.com/wp-content/media/2024/05/runningshoesforyou-2048px-2251.jpg?auto=webp&quality=75&width=1024",
       "description": "High-performance running shoes for athletes aiming for speed and agility.",
       "price": 150
     },
     {
       "id": 6,
       "title": "EcoStep Sandals",
+      "image": "https://cdn.thewirecutter.com/wp-content/media/2024/05/runningshoesforyou-2048px-2251.jpg?auto=webp&quality=75&width=1024",
       "description": "Eco-friendly sandals made with sustainable materials for outdoor enthusiasts.",
       "price": 60
-    },
-    {
-      "id": 7,
-      "title": "WinterGuard Boots",
-      "description": "Insulated boots designed to keep your feet warm and dry during harsh winters.",
-      "price": 180
-    },
-    {
-      "id": 8,
-      "title": "Sporty Slides",
-      "description": "Comfortable slides with cushioned soles, ideal for post-workout relaxation.",
-      "price": 45
     }
   ]
 }
