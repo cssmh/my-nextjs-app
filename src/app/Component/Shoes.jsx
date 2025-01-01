@@ -3,7 +3,7 @@ import Image from "next/image";
 const ShoesCard = async () => {
   const res = await fetch("http://localhost:5000/shoes", {
     next: {
-      revalidate: 5,
+      revalidate: 30,
     },
   });
   const data = await res.json();
