@@ -1,6 +1,6 @@
 const loadingPage = () => {
     return (
-        <div className='text-center my-10'>
+        <div className='flex justify-center h-screen'>
             <span className="loading loading-spinner loading-lg"></span>
         </div>
     );
