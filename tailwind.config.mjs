@@ -14,7 +14,7 @@ const tailwindConfig = {
       },
     },
   },
-  plugins: [require('daisyui')],
+  plugins: [require("daisyui")],
 };
 
 export default tailwindConfig;
