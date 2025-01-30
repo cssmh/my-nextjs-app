@@ -1,16 +1,22 @@
 "use client";
+
 import { useState } from "react";
-const Count = () => {
-  const [num, setNum] = useState(0);
+
+const Count: React.FC = () => {
+  const [num, setNum] = useState<number>(0);
 
   const handleDecrease = () => {
     if (num > 0) {
-      setNum(num - 1);
+      setNum((prev) => prev - 1);
     }
   };
+
   return (
     <div className="my-10 text-center">
-      <button onClick={() => setNum(num + 1)} className="mr-2 btn btn-primary">
+      <button
+        onClick={() => setNum((prev) => prev + 1)}
+        className="mr-2 btn btn-primary"
+      >
         Increase +
       </button>
       {num}

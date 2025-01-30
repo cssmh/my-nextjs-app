@@ -1,12 +1,18 @@
 import Image from "next/image";
-
+import Link from "next/link";
+interface Shoe {
+  id: string;
+  image: string;
+  title: string;
+  description: string;
+}
 const ShoesCard = async () => {
   const res = await fetch("http://localhost:5000/shoes", {
     next: {
       revalidate: 30,
     },
   });
-  const data = await res.json();
+  const data: Shoe[] = await res.json();
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-10 gap-4">
@@ -19,7 +25,9 @@ const ShoesCard = async () => {
             <h2 className="card-title">{shoe.title}</h2>
             <p>{shoe.description}</p>
             <div className="card-actions justify-end">
-              <button className="btn btn-success">Details</button>
+              <Link href={`/shoes/${shoe.id}`}>
+                <button className="btn btn-success">Details</button>
+              </Link>
             </div>
           </div>
         </div>
